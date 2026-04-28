@@ -36,7 +36,7 @@ import { User, Service, Appointment, UserRole, TimeSlot } from '../types';
 // Configuração do Cliente Supabase
 // As variáveis de ambiente devem ser configuradas na Vercel com o prefixo VITE_
 const SUPABASE_URL = (import.meta as any).env.VITE_SUPABASE_URL || 'https://dsbmnmtqawfyrjtzywjx.supabase.co';
-const SUPABASE_KEY = (import.meta as any).env.VITE_SUPABASE_ANON_KEY || 'sb_publishable_C871UcfpXM0lCFN9s1MI5g_MJ_bpONy';
+const SUPABASE_KEY = (import.meta as any).env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRzYm1ubXRxYXdmeXJqdHp5d2p4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzczMzIyOTYsImV4cCI6MjA5MjkwODI5Nn0.UNAVXXN2Uq30WubFQjYBG1iCAdxJM-OR-YYHqRfwdC8';
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
